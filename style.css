@@ -3,3 +3,106 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+.container{
+    margin-bottom: 100px;
+}
+
+.bg-color{
+    background-color: #F7EDE1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.carousel-item{
+    padding: 30px 60px;
+}
+
+.buy-now-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 9px 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.card{
+    border: none;
+    box-shadow: 10px 10px 20px lightgray;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.categories-text{
+    text-align: center;
+}
+
+.categories-text h3{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.categories-text::after{
+    width: 140px;
+    height: 5px;
+    content: '';
+    left: 46%;
+    background-image: linear-gradient(to right, #FFC41F, #FF9C35);
+    position: absolute;
+    display: block;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+
+.cat-bottom{
+    margin-top: 100px;
+}
+
+.cat img{
+    box-shadow: 5px 5px 15px lightgray;
+    text-align: center;
+    padding: 15px 25px;
+    margin: 30px;
+    border-radius: 10px 0px 10px 0px;
+    -webkit-border-radius: 10px 0px 10px 0px;
+    -moz-border-radius: 10px 0px 10px 0px;
+    -ms-border-radius: 10px 0px 10px 0px;
+    -o-border-radius: 10px 0px 10px 0px;
+}
+
+.cat-1{
+    margin-right: 60px;
+}
+
+#contact{
+    height: 300px;
+}
+
+#contact h6{
+    color: darkgrey;
+}
+
+#contact h3{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: lightgrey;
+}
